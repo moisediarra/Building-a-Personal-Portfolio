@@ -18,5 +18,5 @@ from django.urls import path
 import jobs.views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('nick/', jobs.views.nick, name="Moise"),
+    path('nick/', jobs.views.nick, name="nick"),
 ]
