@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-def nick(request)
-    return render(request,'')
+def nick(request):
+    return render(request,'jobs/nick.html')
 
 
