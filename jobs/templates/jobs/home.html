@@ -1,2 +1,5 @@
+<h1>All my Jobs</h1>
 
-<h1>Bienvenue</h1>
+{% for job in jobs.all %}
+{% job.summary %}
+{% endfor %}
